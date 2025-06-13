@@ -1,4 +1,4 @@
-# Concurrent_LED_Control
+# Concurrent LED Control
 
 ## Overview
 
@@ -33,9 +33,6 @@ Concurrent_LED_Control is a FreeRTOS-based firmware project for the STM32 microc
 - **task_d** toggles the Red LED continuously when the button is pressed, using a mutex for safe access.  
 - **task_e** toggles the Blue LED only when toggling is allowed (button released), also protected by mutex.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 
 
