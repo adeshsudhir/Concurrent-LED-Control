@@ -1,0 +1,44 @@
+# Ignore build output
+/build/
+*.elf
+*.bin
+*.hex
+*.map
+
+# CMake generated files
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/build.ninja
+/compile_commands.json
+/CMakePresets.json
+
+# VSCode settings
+.vscode/
+
+# STM32CubeMX generated backup files
+*.ioc~
+*.backup
+
+# Misc
+*.log
+*.swp
+*.swo
+*.svd
+
+# IDE/Editor files
+*.user
+*.launch
+*.uvoptx
+*.uvprojx
+*.idea/
+*.DS_Store
+*.metadata/
+*.bak
+*.tmp
+
+# Debug / output artifacts
+debug output.png
+
+# STM32CubeMX project file backup
+*.db
